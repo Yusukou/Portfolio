@@ -8,8 +8,8 @@ export default function Hero({ scrollYProgress }) {
 
   return (
     <div id="acceuil" className="flex justify-center mt-90 text-[6rem] tracking-[.10em]">
-      <h1 className="text-[200%] relative left-[130px] bottom-[5px] text-[#0057b8] z-1">Y</h1>
-      <motion.h1 style={{ y }} className="text-[200%] relative left-[9px] bottom-[5px] text-[#007f5f] z-0">
+      <h1 className="text-[200%] relative left-[130px] bottom-[15px] text-[#0057b8] z-1">Y</h1>
+      <motion.h1 style={{ y }} className="text-[200%] relative left-[9px] bottom-[15px] text-[#007f5f] z-0">
         Y
       </motion.h1>
       <h1 className="text-[100%] top-[60px] relative">USUF</h1>
