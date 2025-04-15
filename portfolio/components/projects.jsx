@@ -1,23 +1,22 @@
 import { ProjectCard } from "./project-card"
 
-// Vous pouvez facilement ajouter ou supprimer des projets ici
+
 const projectsData = [
   {
-    title: "My spotify",
-    description: "Reproduction de spotify.",
+    title: "My twitter",
+    description: "Reproduction d’un mini Twitter en 4 semaines à 3 (SQL, PHP, JS) avec publication, follow et fil d’actu",
     image: "assets/Projettwitter.png",
   },
   {
     title: "Puissance 4",
-    description: "Creation d'un puissance 4.",
+    description: "Création d’un Puissance 4 en 1 semaine en JavaScript : grille dynamique, logique du jeu et détection des gagnants.",
     image: "assets/projetpuissance4.png",
   },
   {
     title: "My meetic",
-    description: "Création de mon site de rencontre.",
+    description: "Développement solo d’un site de rencontre “Meetic” en 2 semaines avec PHP : inscription, profils, système de like/match.",
     image: "assets/projetmeetic.png",
   },
-  // Ajoutez facilement d'autres projets ici
 ]
 
 export default function Projects() {
