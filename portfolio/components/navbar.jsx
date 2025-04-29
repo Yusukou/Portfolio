@@ -73,7 +73,7 @@ export default function Navbar() {
                               ? "contact"
                               : ""
                   }`}
-                  {...(item === "CV" ? { href: "/assets/CV_Yusuf_Yeni.pdf", download: true } : {})}>
+                  {...(item === "CV" ? { href: "/assets/Cv Yusuf Yeni.pdf", download: true } : {})}>
                   {item}
                 </a>
               </li>
